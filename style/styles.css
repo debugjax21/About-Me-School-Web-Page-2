@@ -1,0 +1,158 @@
+@import url(//db.onlinewebfonts.com/c/83c87eaab9535ea533cabc2f921bf64a?family=AdiHaus);
+@font-face {
+  font-family: "AdiHaus";
+  src: url("//db.onlinewebfonts.com/t/83c87eaab9535ea533cabc2f921bf64a.eot");
+  src: url("//db.onlinewebfonts.com/t/83c87eaab9535ea533cabc2f921bf64a.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/83c87eaab9535ea533cabc2f921bf64a.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/83c87eaab9535ea533cabc2f921bf64a.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/83c87eaab9535ea533cabc2f921bf64a.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/83c87eaab9535ea533cabc2f921bf64a.svg#AdiHaus")
+      format("svg");
+}
+
+body {
+  background-image: url("../img/city-background.jpg");
+  margin: 20px;
+  font-family: AdiHaus, "Segoe UI", Tahoma, Verdana, arial, sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 60px 0;
+  background: linear-gradient(to right, rgb(0, 0, 255), #00ff95 78%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+h1,
+.section-2 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  color: rgba(1, 1, 126, 0.562);
+}
+
+caption h2 {
+  margin-top: 15px;
+  color: #06909c;
+}
+
+p,
+li {
+  font-size: 12pt;
+}
+
+p {
+  line-height: 30px;
+}
+
+img {
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px #888888;
+  float: right;
+  margin: 80px;
+  margin-right: 10%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: hotpink;
+}
+
+li {
+  padding: 5px;
+}
+
+table {
+  background-color: #fefefe65;
+  margin: auto;
+  table-layout: fixed;
+  max-width: 900px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  border-spacing: 3px;
+  box-sizing: border-box;
+  width: 0%;
+  min-width: 100px;
+  padding: 3px;
+  vertical-align: top;
+}
+
+th {
+  background-color: rgb(204, 200, 200);
+}
+
+.outmost-container {
+  margin: 0 10%;
+  background-color: rgba(235, 208, 179, 0.185);
+  padding: 0 2% 2%;
+}
+
+.section-1 {
+  margin: 60px auto 40px;
+  box-sizing: border-box;
+  max-width: 1250px;
+}
+
+.section-1 h2 {
+  margin-bottom: 20px;
+}
+
+.section-1-text {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.section-2 {
+  margin: auto 70px;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.left-align p:nth-of-type(1) {
+  text-indent: 50px;
+}
+
+.work {
+  background-color: rgba(122, 168, 252, 0.473);
+}
+
+.math {
+  background-color: rgba(253, 76, 76, 0.712);
+}
+
+.lab {
+  background-color: sandybrown;
+}
+
+.geo-lecture {
+  background-color: rgb(52, 165, 111);
+}
+
+.java {
+  background-color: #fcf75e;
+}
+
+.web {
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
