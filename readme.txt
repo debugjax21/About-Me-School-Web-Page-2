@@ -5,4 +5,4 @@ that floats over a fixed background.
 
 Option 2: Using CSS3 Webfonts (AdiHaus)
 
-Website Deployed at: https://optimistic-feynman-989615.netlify.app/
+Website deployed at: https://optimistic-feynman-989615.netlify.app/
